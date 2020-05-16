@@ -1,6 +1,4 @@
-body{
- color: ;
-}
+
 form{
     margin-top: 15px;
 }
@@ -9,4 +7,5 @@ label{
 }
 .a{
     color: white;
+    font-size: 30px;
 }
