@@ -10,141 +10,40 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-        <style>
-        
-.form-container{
-    background: rgb(231, 231, 231);
-    color: white;
-    text-align: center;
-}
-.input-cnt{
-    display: flex;
-    margin-bottom: 3%;
-    font-size: 170%;
-    padding: 1%;
-}
-
-.input-cnt >i{  
-    padding: 30px;
-    text-align: center;
-    background: white;
-    border-right-color:  white;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;   
-    color: #4d5358;
-}
-.input-cnt:hover >i{
-    background: rgb(196, 17, 17);
-    color: white;
-}
-.input-cnt>input[type="text"], .input-cnt > input[type="password"]{
-    outline: none;
-    border: none;
-    padding: 4%;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    width: 100%; 
-}
-.input-cnt > input[type="submit"]{
-    border:none;
-    border-radius:20px;
-    outline:none;
-    width: 100%;
-    margin:0 auto;
-   
-    margin-top: 10%;
-    padding:5%;
-    color:white;
-    background:rgb(245, 46, 46);
-    
-}
-.input-cnt > input[type="submit"]:hover{
-    color:white;
-    background:rgb(196, 17, 17);
-}
-.psw{
-    color:black;
-    font-size: 170%;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    margin-bottom: 20px;
-
-}
-.sign >span>a{
-   color: rgb(245, 46, 46);
-}
-
-.lg{
-    display: inline;
-}
-.l1{
-    display: block;
-    float: left;
-}
-.l2{
-    display: block;
-    float: right;
-}
-.s{
-    display: block;
-    float:left;
-    margin-left: 5%;
-    text-decoration: none;
-    font-size: 170%;
-    display: inline-block;
-}
-.f{
-    display: block;
-    float: right;
-    margin-right: 5%;
-    text-decoration: none;
-    font-size: 180%;
-    color: rgb(245, 46, 46);
-
-}
-
-
-
-        </style>
-
     </head>
     <body style="background-color:  rgb(231, 231, 231);">
             <div  style="text-align: center;">
                     <img src="/home/kawthar/Bureau/projet/received_1132444510459521.png" style="width: 300px;height: 300px;">
             </div>
             <div style="text-align: center;">
-                    <div class="form-container" style="display: inline-block;">
+                    <div class="form-container" style="display: inline-block; background: rgb(231, 231, 231);color: white; text-align: center;">
                             <form action="#" style="padding: 5%;">
-                                <div class="input-cnt">
-                                        <i class="far fa-envelope"></i>
-                                        <input type="text" placeholder="email" name="Username">
+                                <div class="input-cnt" style="display: flex;margin-bottom: 3%;font-size: 170%;padding: 1%;">
+                                        <i class="far fa-envelope"style="padding: 30px;text-align: center;background: white;border-right-color:  white;border-top-left-radius: 20px;border-bottom-left-radius: 20px;color: #4d5358;"></i>
+                                        <input type="text" placeholder="email" name="Username"style="outline: none;border: none;padding: 4%;border-top-right-radius: 20px;border-bottom-right-radius: 20px;width: 100%; ">
                                 </div>
-                                <div class="input-cnt">
-                                        <i class="fas fa-lock"></i>
-                                        <input type="password" placeholder="password" name="password">
+                                <div class="input-cnt" style="display: flex;margin-bottom: 3%;font-size: 170%;padding: 1%;">
+                                        <i class="fas fa-lock"style="padding: 30px;text-align: center;background: white;border-right-color:  white;border-top-left-radius: 20px;border-bottom-left-radius: 20px;color: #4d5358;"></i>
+                                        <input type="password" placeholder="password" name="password"style="outline: none;border: none;padding: 4%;border-top-right-radius: 20px;border-bottom-right-radius: 20px;width: 100%; ">
                                 </div>
-                                <div class="input-cnt">
-                                        <input type="submit" value="get started">
+                                <div class="input-cnt" style="display: flex;margin-bottom: 3%;font-size: 170%;padding: 1%;">
+                                        <input type="submit" value="get started"style ="border:none;border-radius:20px;outline:none;width: 100%; margin:0 auto; margin-top: 10%;padding:5%;color:white;background:rgb(245, 46, 46);">
                                 </div>
                                <div class="sign">
-                                        <span class="psw">don't have account?<a href="#"  style="text-decoration: none"  > sign in</a></span>
-                                <div class="lg">
-                                    <hr class="l1" width="45%">
+                                        <span style="color:black;font-size: 170%;display: block;text-align: center;text-decoration: none;    margin-bottom: 20px;">don't have account?<a href="#"  style="text-decoration: none;color: rgb(245, 46, 46);"  > sign in</a></span>
+                                <div style="display: inline;">
+                                    <hr  width="45%" style="display: block;float: left;">
                                    
-                                    <hr class="l2" width="45%" >
-                
+                                    <hr  width="45%" style="display: block;float: right;">   
+                                
                                 </div>
                                 <div>
-                                    <a class="s" href="https://www.facebook.com/?stype=lo&jlou=AfdwGiajtg1kQaynhePQxOrInZJHknZvXkj4gEY5G8kHtaxul9jw_HVj-ejqpZdIjT6ni0r8J_cLiUzq7uXnymUSXywpW6c-kZYyilYTzJ8Sbg&smuh=7514&lh=Ac_CjBLy_l11J7C7">facebook</a>
-                                    <a class="f" href="https://www.google.dz/?gws_rd=cr&ei=GWhsVqmtCOL_ywOsiqX4Ag&authuser=0">google+</a>
+                                    <a  href="https://www.facebook.com/?stype=lo&jlou=AfdwGiajtg1kQaynhePQxOrInZJHknZvXkj4gEY5G8kHtaxul9jw_HVj-ejqpZdIjT6ni0r8J_cLiUzq7uXnymUSXywpW6c-kZYyilYTzJ8Sbg&smuh=7514&lh=Ac_CjBLy_l11J7C7" style="display: block;float:left;margin-left: 5%;text-decoration: none;font-size: 170%;display: inline-block;">facebook</a>
+                                    <a  href="https://www.google.dz/?gws_rd=cr&ei=GWhsVqmtCOL_ywOsiqX4Ag&authuser=0"style="display: block;float: right;margin-right: 5%; text-decoration: none;font-size: 180%;color: rgb(245, 46, 46);">google+</a>
                                 </div>
                                
                             </form>
                 
                         </div>
-
-            
-
     </body>
 </html>
